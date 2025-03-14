@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RTA": {
+      "commandName": "Project",
+      "commandLineArgs": "exercise-TC1.csv"
+    }
+  }
+}
