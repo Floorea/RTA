@@ -21,8 +21,20 @@
     {
         static void Main(string[] args)
         {
+            if (args.Length != 1)
+            {
+                Console.WriteLine("Usage: RTA <csv_file_path>");
+                return;
+            }
+
             // 1. Read Task Data from CSV
-            List<Task> tasks = ReadTasksFromCsv("exercise-TC3.csv"); // Replace with your CSV file name
+
+            string csvFilePath = args[0];
+
+            List<Task> tasks = ReadTasksFromCsv(csvFilePath);
+
+            //List<Task> tasks = ReadTasksFromCsv("exercise-TC4.csv"); // Replace with your CSV file name
+           
 
             if (tasks == null || tasks.Count == 0)
             {
