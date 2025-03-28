@@ -4,7 +4,7 @@ Expected Input format:
 This project expect the input file to be .csv file with columns structured as follows: Task,BCET,WCET,Period,Deadline,Priority
 
 Output format:
-After the analysis is completed, the results will be returned in the cmd. window, with columns structured as follows: Task,BCET,WCET,Period,Deadline,Priority,WCRT
+After the analysis is completed, the results will be returned in the cmd. window in which it was run, with columns structured as follows: Task,BCET,WCET,Period,Deadline,Priority,WCRT
 The run time of the algorithm will also be displayed.
 # Run the project:
 
